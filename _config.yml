@@ -1,0 +1,34 @@
+# Site Settings
+title: Bitopma | Kho Phim Việt
+email: moleys@protonmail.com
+description: Chia sẻ phim Việt Nam.
+baseurl: ""
+url: "https://bitopma.gq"
+google_analytics: "UA-XXXXXXXX-X"
+
+# User Settings
+username: Bitopma
+user_description: Thợ sửa ống nước.
+disqus_username: bitopma
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+gems:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Trang chủ
+    url: /
+  - title: Thông tin
+    url: /about/
+  - title: Liên hệ
+    url: /contact/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
